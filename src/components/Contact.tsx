@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Mail, User, MessageCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -80,7 +79,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-20 px-6 bg-gray-50 dark:bg-gray-900">
+    <section id="contact" className="py-20 px-6 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl font-light text-gray-900 dark:text-white mb-4">Get In Touch</h2>
