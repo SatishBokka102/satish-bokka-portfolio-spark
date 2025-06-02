@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Download, Linkedin, Mail } from 'lucide-react';
@@ -18,16 +19,16 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 py-20">
+    <section className="min-h-screen flex items-center justify-center px-6 py-20 bg-white dark:bg-gray-900">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-light text-gray-900 dark:text-white mb-6 leading-tight">
             Hi, I'm <span className="font-medium text-violet-500">Satish Bokka</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-4 font-light">
+          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4 font-light">
             AI/ML Enthusiast · Innovator · Future-Ready Technologist
           </p>
-          <p className="text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
             Bridging intelligence and code to solve real-world challenges.
           </p>
         </div>
@@ -45,7 +46,7 @@ const Hero = () => {
           <Button 
             onClick={handleLinkedInClick}
             variant="outline"
-            className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
+            className="border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
             size="lg"
           >
             <Linkedin className="mr-2 h-5 w-5" />
@@ -55,7 +56,7 @@ const Hero = () => {
           <Button 
             onClick={handleContactClick}
             variant="ghost"
-            className="text-gray-700 hover:bg-gray-50 px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
+            className="text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 px-8 py-3 text-lg font-medium transition-all duration-300 hover:scale-105"
             size="lg"
           >
             <Mail className="mr-2 h-5 w-5" />
@@ -64,8 +65,8 @@ const Hero = () => {
         </div>
 
         <div className="mt-16 animate-float">
-          <div className="w-6 h-10 border-2 border-gray-300 rounded-full mx-auto">
-            <div className="w-1 h-3 bg-gray-400 rounded-full mx-auto mt-2 animate-pulse"></div>
+          <div className="w-6 h-10 border-2 border-gray-300 dark:border-gray-600 rounded-full mx-auto">
+            <div className="w-1 h-3 bg-gray-400 dark:bg-gray-500 rounded-full mx-auto mt-2 animate-pulse"></div>
           </div>
         </div>
       </div>

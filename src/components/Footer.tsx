@@ -8,7 +8,7 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/satishbokka',
+      href: 'https://github.com/satishbokka102',
       label: 'GitHub'
     },
     {
@@ -24,11 +24,11 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-12 px-6 border-t border-gray-200">
+    <footer className="py-12 px-6 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <div className="mb-6 sm:mb-0">
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-gray-300">
               © {currentYear} Satish Bokka. All rights reserved.
             </p>
           </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={link.label}
-                className="text-gray-400 hover:text-violet-500 transition-colors duration-300 hover:scale-110 transform"
+                className="text-gray-400 dark:text-gray-500 hover:text-violet-500 dark:hover:text-violet-400 transition-colors duration-300 hover:scale-110 transform"
               >
                 <link.icon className="h-6 w-6" />
               </a>
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-8 text-center">
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 dark:text-gray-400">
             Crafted with passion for innovation and excellence in AI/ML
           </p>
         </div>
