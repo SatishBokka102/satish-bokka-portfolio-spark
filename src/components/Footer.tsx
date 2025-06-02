@@ -8,12 +8,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com',
+      href: 'https://github.com/satishbokka',
       label: 'GitHub'
     },
     {
       icon: Linkedin,
-      href: 'www.linkedin.com/in/satish-bokka-0ab457311',
+      href: 'https://www.linkedin.com/in/satish-bokka-0ab457311',
       label: 'LinkedIn'
     },
     {
