@@ -1,16 +1,16 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Download, Linkedin, Mail } from 'lucide-react';
 
 const Hero = () => {
   const handleDownloadResume = () => {
-    // In a real implementation, this would download the actual resume
-    console.log('Download resume clicked');
+    // For mobile compatibility, open the Google Drive link directly
+    const driveUrl = 'https://drive.google.com/file/d/1DQK7dgQt9CqpDxNAT8cASjb3Lq0QxBzJ/view?usp=drive_link';
+    window.open(driveUrl, '_blank');
   };
 
   const handleLinkedInClick = () => {
-    window.open('https://linkedin.com', '_blank');
+    window.open('https://www.linkedin.com/in/satish-bokka-0ab457311', '_blank');
   };
 
   const handleContactClick = () => {
