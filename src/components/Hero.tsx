@@ -6,7 +6,7 @@ import { Download, Linkedin, Mail } from 'lucide-react';
 const Hero = () => {
   const handleDownloadResume = () => {
     // For mobile compatibility, open the Google Drive link directly
-    const driveUrl = 'https://drive.google.com/file/d/1DQK7dgQt9CqpDxNAT8cASjb3Lq0QxBzJ/view?usp=drive_link';
+    const driveUrl = 'https://drive.google.com/file/d/1byNNSMmQMj-pv1NSZ92OzdZODMSee5f5/view?usp=sharing';
     window.open(driveUrl, '_blank');
   };
 
